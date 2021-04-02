@@ -31,6 +31,16 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 
 /***/ }),
 
+/***/ "./src/data.csv":
+/*!**********************!*\
+  !*** ./src/data.csv ***!
+  \**********************/
+/***/ ((module) => {
+
+eval("module.exports = [[\"to\",\"from\",\"heading\",\"body\"],[\"Mary\",\"John\",\"Reminder\",\"Call Cindy on Tuesday\"],[\"Zoe\",\"Bill\",\"Reminder\",\"Buy orange juice\"],[\"Autumn\",\"Lindsey\",\"Letter\",\"I miss you\"]]\n\n//# sourceURL=webpack://webpack-demo/./src/data.csv?");
+
+/***/ }),
+
 /***/ "./node_modules/lodash/lodash.js":
 /*!***************************************!*\
   !*** ./node_modules/lodash/lodash.js ***!
@@ -70,7 +80,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\r\n\r\n\r\nfunction component() {\r\n    const element = document.createElement(\"div\");\r\n\r\n    // Lodash, currently included via a script, is required for this line to work\r\n    element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join([\"Hello\", \"webpack\"], \" \");\r\n    element.classList.add('hello');\r\n\r\n    return element;\r\n}\r\n\r\ndocument.body.appendChild(component());\r\n\n\n//# sourceURL=webpack://webpack-demo/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _data_csv__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./data.csv */ \"./src/data.csv\");\n/* harmony import */ var _data_csv__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_data_csv__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n\r\nfunction component() {\r\n    const element = document.createElement(\"div\");\r\n\r\n    // Lodash, currently included via a script, is required for this line to work\r\n    element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join([\"Hello\", \"webpack\"], \" \");\r\n    element.classList.add('hello');\r\n\r\n    return element;\r\n}\r\n\r\ndocument.body.appendChild(component());\r\nconsole.log((_data_csv__WEBPACK_IMPORTED_MODULE_2___default()));\n\n//# sourceURL=webpack://webpack-demo/./src/index.js?");
 
 /***/ })
 

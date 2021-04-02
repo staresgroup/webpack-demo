@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import './style.css';
+import Notes from './data.csv';
 
 function component() {
     const element = document.createElement("div");
@@ -12,3 +13,4 @@ function component() {
 }
 
 document.body.appendChild(component());
+console.log(Notes);
