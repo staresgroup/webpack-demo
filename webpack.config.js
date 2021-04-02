@@ -11,10 +11,11 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     clean: true
   },
+  devtool: 'inline-source-map',
   mode: 'development',
   plugins: [
       new HtmlWebpackPlugin({
-          title: 'Output Management'
+          title: 'Development'
       })
   ],
   module: {
